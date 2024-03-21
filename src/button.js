@@ -1,8 +1,8 @@
 // src/Button.js
 import React from 'react';
 
-const Button = () => {
-  return <button>Hello, World!</button>;
+const Button = ({onClick,label}) => {
+  return <button onClick = {onClick}>{label}</button>;
 };
 
 export default Button;
